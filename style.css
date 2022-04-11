@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+body {
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: 'Nunito', sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    width: 30%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    -webkit-box-reflect: below 5px linear-gradient(transparent, transparent, #0004);
+}
+
+.container .year {
+    background-color: red;
+    padding: 5px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.day {
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 8rem;
+    padding: 10px;
+}
+
+.month {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.day-minus {
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.day-plus {
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.day-minus:hover {
+    transform: scale(1.5);
+}
+
+.day-plus:hover {
+    transform: scale(1.5);
+}
+
+.message {
+    padding: 10px;
+}
